@@ -18,7 +18,7 @@ Numpy é um pacote para computação científica que manipula arrays de múltipl
     import numpy as np
     
     
-#### GDAL	(Geospatial	Data	Abstraction	Library)
+### GDAL	(Geospatial	Data	Abstraction	Library)
 
 Possibilita manipular arquivos de formato vetorial geoespacial com OGR e drivers que podem ler, criar e manipular rasters com GDAL
 #### install
@@ -28,3 +28,21 @@ Possibilita manipular arquivos de formato vetorial geoespacial com OGR e drivers
         opcionalmente também pode ser instalado o pacote: libgdal1 --> sudo apt-get install libgdal1-dev
 #### testando
         import gdal
+
+
+### Mapnik
+
+##### intall for ubunto (16.04)
+
+    Install Mapnik latest (3.x series)
+
+    git clone https://github.com/mapnik/mapnik mapnik-3.x --depth 10
+    cd mapnik-3.x
+    git submodule update --init
+    sudo apt-get install python zlib1g-dev clang make pkg-config curl
+    source bootstrap.sh
+    ./configure CUSTOM_CXXFLAGS="-D_GLIBCXX_USE_CXX11_ABI=0"
+    make
+    make test
+    sudo make install
+
