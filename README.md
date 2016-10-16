@@ -46,3 +46,5 @@ Possibilita manipular arquivos de formato vetorial geoespacial com OGR e drivers
     make test
     sudo make install
 
+References:
+    https://github.com/mapnik/mapnik/wiki/UbuntuInstallation
