@@ -72,6 +72,12 @@ Pacote para manipulação e analise de geometrias bidimensionais. pode executar 
     import xmltodict
     import psycopg2
 
+### Ipython Notebook
+####install Ipython Notebook
+    pip install jupyter
+
+
 References:
     https://github.com/mapnik/mapnik/wiki/UbuntuInstallation
+
 
