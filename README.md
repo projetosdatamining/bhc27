@@ -1,4 +1,4 @@
-# bhc27
+# Enviroment bhcgdal27
 
 ## Pacotes instalados
 ###OpenCV
@@ -72,9 +72,12 @@ Pacote para manipulação e analise de geometrias bidimensionais. pode executar 
     import xmltodict
     import psycopg2
 
+## IDE Web para desenvolvimento
 ### Ipython Notebook
-####install Ipython Notebook
+#### Install Ipython Notebook
     pip install jupyter
+#### Executando Ipython
+    jupyter notebook
 
 
 References:
