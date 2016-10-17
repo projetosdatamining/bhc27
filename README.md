@@ -26,9 +26,8 @@ Possibilita manipular arquivos de formato vetorial geoespacial com OGR e drivers
         (observações, caso encotnre dificuldades em instalar em um ambiente virtual crie  um ambiente com base nos pacotes já existentes no sistema usando:  
         virtualenv --python=python2.7 --system-site-packages <nome_do_ambiente>)
         opcionalmente também pode ser instalado o pacote: libgdal1 --> sudo apt-get install libgdal1-dev
-#### testando
+#### Teste de funcionamento:
         import gdal
-
 
 ### Mapnik
 
@@ -51,13 +50,28 @@ Possibilita manipular arquivos de formato vetorial geoespacial com OGR e drivers
     Por fim execute no ambiente desejado: 
     pip install mapnik
 
+#### Teste de funcionamento:
+    import mapnik
+
 ### Shapely
 Pacote para manipulação e analise de geometrias bidimensionais. pode executar operações como união e subtração de geometrias. bem como testes e comparações.
 
 ####Install shapely
     
-    sudo pip install shapely
+    pip install shapely
 
+### Outros pacotes necessários
+
+#### instalação
+    pip install django tabulate requests xmltodict psycopg2
+
+#### Teste de funcionamento:
+    import django
+    import tabulate
+    import requests
+    import xmltodict
+    import psycopg2
 
 References:
     https://github.com/mapnik/mapnik/wiki/UbuntuInstallation
+
