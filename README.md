@@ -32,7 +32,9 @@ Possibilita manipular arquivos de formato vetorial geoespacial com OGR e drivers
 
 ### Mapnik
 
-##### intall for ubunto (16.04)
+É um pacote de renderização de mapas de alta qualidade usado em aplicações como por exemplo OpenStreetMaps.
+
+##### intall for ubuntu (16.04)
 
     Install Mapnik latest (3.x series)
 
@@ -45,6 +47,17 @@ Possibilita manipular arquivos de formato vetorial geoespacial com OGR e drivers
     make
     make test
     sudo make install
+    
+    Por fim execute no ambiente desejado: 
+    pip install mapnik
+
+### Shapely
+Pacote para manipulação e analise de geometrias bidimensionais. pode executar operações como união e subtração de geometrias. bem como testes e comparações.
+
+####Install shapely
+    
+    sudo pip install shapely
+
 
 References:
     https://github.com/mapnik/mapnik/wiki/UbuntuInstallation
